@@ -61,7 +61,7 @@ I also have the Human Development Index in a web repository in a simple csv form
 
 ```r
 library(RCurl)
-data <- getURL("https://raw.github.com/JoseManuelMAGALLANES/Repository/master/blog2/hdi.csv")
+data <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/hdi.csv")
 HDI <- read.csv(text = data)
 ```
 
@@ -244,5 +244,41 @@ But, we will only wish to have those countries with all the indexes, which will 
 dataCountries = na.omit(dataCountries)
 setwd("~/Documents/GITHUBrepositories/Tutorials/TemplatesR")
 write.csv(dataCountries, "dataCountries.csv", row.names = FALSE)
+```
+
+
+You can access this data with the code:
+
+```r
+library(RCurl)
+DATA_GithubCleaned <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/dataCountries.csv")
+DATA_gitClean <- read.csv(text = DATA_GithubCleaned)
+head(DATA_gitClean)
+```
+
+```
+##     Country Continent            Region     Freedom      FreeMarket            Democracy Terrorism  HDI
+## 1   Albania    Europe South East Europe partly free moderately free        hybrid regime     0.119 0.75
+## 2   Algeria    Africa   Northern Africa    not free   mostly unfree authoritarian regime     5.831 0.71
+## 3    Angola    Africa   Southern Africa    not free       repressed authoritarian regime     1.696 0.51
+## 4 Argentina  Americas     South America        free       repressed     flawed democracy     1.475 0.81
+## 5   Armenia      Asia   South West Asia partly free moderately free        hybrid regime     0.188 0.73
+## 6 Australia   Oceania           Pacific        free            free       full democracy     1.720 0.94
+```
+
+```r
+str(DATA_gitClean)
+```
+
+```
+## 'data.frame':	141 obs. of  8 variables:
+##  $ Country   : Factor w/ 141 levels "Albania","Algeria",..: 1 2 3 4 5 6 7 8 9 10 ...
+##  $ Continent : Factor w/ 5 levels "Africa","Americas",..: 4 1 1 2 3 5 4 3 3 3 ...
+##  $ Region    : Factor w/ 24 levels "Central Africa",..: 17 10 20 14 18 13 4 18 18 15 ...
+##  $ Freedom   : Factor w/ 3 levels "free","not free",..: 3 2 2 1 3 1 1 2 2 3 ...
+##  $ FreeMarket: Factor w/ 5 levels "free","moderately free",..: 2 4 5 5 2 1 3 2 3 4 ...
+##  $ Democracy : Factor w/ 4 levels "authoritarian regime",..: 4 1 1 2 4 3 3 1 1 2 ...
+##  $ Terrorism : num  0.119 5.831 1.696 1.475 0.188 ...
+##  $ HDI       : num  0.75 0.71 0.51 0.81 0.73 0.94 0.9 0.73 0.8 0.52 ...
 ```
 

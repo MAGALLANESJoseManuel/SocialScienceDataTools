@@ -49,7 +49,7 @@ I also have the Human Development Index in a web repository in a simple csv form
 
 ```{r message=FALSE}
 library(RCurl)
-data <- getURL("https://raw.github.com/JoseManuelMAGALLANES/Repository/master/blog2/hdi.csv")
+data <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/hdi.csv")
 HDI <- read.csv(text = data)
 ```
 
@@ -117,4 +117,14 @@ But, we will only wish to have those countries with all the indexes, which will 
 dataCountries=na.omit(dataCountries)
 setwd("~/Documents/GITHUBrepositories/Tutorials/TemplatesR")
 write.csv(dataCountries,"dataCountries.csv",row.names=FALSE)
+```
+
+You can access this data with the code:
+```{r}
+library(RCurl)
+DATA_GithubCleaned <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/dataCountries.csv")
+DATA_gitClean <- read.csv(text = DATA_GithubCleaned)
+head(DATA_gitClean)
+str(DATA_gitClean)
+
 ```
