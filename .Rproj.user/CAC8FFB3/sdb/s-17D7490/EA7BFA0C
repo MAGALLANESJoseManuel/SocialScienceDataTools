@@ -1,0 +1,16 @@
+{
+    "contents" : "\n```{r}\nc(1:5, 10.5, \"next\")\nlist(1:5, 10.5, \"next\") \ndata.frame(1:5, 10.5, \"next\")\nx=data.frame(1,2,3,4,\"5\")\nstr(x)\n```\n\n```{r}\nlibrary(RCurl )\ndata <- getURL(\"https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/hdi.csv\")\nHDI <- read.csv(text = data)\nstr(HDI)\nhead(HDI)\nsummary(HDI$hdi)\n```\n\n```{r}\nfor (i in 1:5){\n  print (i**2)\n}\nnames=c(\"John\", \"Mary\", \"Peter\")\nfor (name in names){\n  print (name)\n}\ni=1\nwhile (i<=length(names)){\n  print (names[i])\n  i=i+1\n}\n```\n\n```{r}\nPeterList=list(name='Peter', lastname='Jackson',age=30)\nPeterList\nPeterList[1]\nPeterList[[1]]\nPeterList$lastname\nPeterList['name']\nPeterList['name'][[1]]\nPeterList['age'][[1]]\n```\n```{r}\nPeterVector=c(name='Peter', lastname='Jackson',age=30)\nPeterVector\nPeterVector[1]\nPeterVector[[1]]\nPeterVector$lastname #does not work\nPeterVector['name']\nPeterVector['name'][[1]]\nPeterVector['age'][[1]]  #coerced to char\n```\n```{r}\nfor (item in PeterList){\n  print (item)\n}\n```\n\n```{r}\nfor (item in PeterVector){\n  print (item)\n}\n```",
+    "created" : 1396244979836.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "520801247",
+    "id" : "EA7BFA0C",
+    "lastKnownWriteTime" : 1396245023,
+    "path" : "~/tutorialSBP2014/testBasicR.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

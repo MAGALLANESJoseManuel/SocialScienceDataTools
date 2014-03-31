@@ -1,0 +1,142 @@
+"Country","Continent","Region","Freedom","FreeMarket","Democracy","Terrorism","HDI"
+"Albania","Europe","South East Europe","partly free","moderately free","hybrid regime",0.119,0.75
+"Algeria","Africa","Northern Africa","not free","mostly unfree","authoritarian regime",5.831,0.71
+"Angola","Africa","Southern Africa","not free","repressed","authoritarian regime",1.696,0.51
+"Argentina","Americas","South America","free","repressed","flawed democracy",1.475,0.81
+"Armenia","Asia","South West Asia","partly free","moderately free","hybrid regime",0.188,0.73
+"Australia","Oceania","Pacific","free","free","full democracy",1.72,0.94
+"Austria","Europe","Central Europe","free","mostly free","full democracy",1.408,0.9
+"Azerbaijan","Asia","South West Asia","not free","moderately free","authoritarian regime",0.867,0.73
+"Bahrain","Asia","South West Asia","not free","mostly free","authoritarian regime",0.616,0.8
+"Bangladesh","Asia","South Asia","partly free","mostly unfree","flawed democracy",3.672,0.52
+"Belarus","Europe","Eastern Europe","not free","mostly unfree","authoritarian regime",4.256,0.79
+"Belgium","Europe","Western Europe","free","moderately free","full democracy",0.069,0.9
+"Benin","Africa","Western Africa","free","mostly unfree","flawed democracy",0.03,0.44
+"Bhutan","Asia","South Asia","partly free","mostly unfree","hybrid regime",1.235,0.54
+"Bolivia","Americas","South America","partly free","repressed","hybrid regime",0.415,0.68
+"Bosnia and Herzegovina","Europe","South East Europe","partly free","mostly unfree","hybrid regime",1.369,0.74
+"Botswana","Africa","Southern Africa","free","mostly free","flawed democracy",0,0.63
+"Brazil","Americas","South America","free","mostly unfree","flawed democracy",0,0.73
+"Bulgaria","Europe","South East Europe","free","moderately free","flawed democracy",0.741,0.78
+"Burkina Faso","Africa","Western Africa","partly free","mostly unfree","authoritarian regime",0,0.34
+"Burundi","Africa","Central Africa","partly free","mostly unfree","authoritarian regime",4.899,0.36
+"Cambodia","Asia","South East Asia","not free","mostly unfree","hybrid regime",0.119,0.54
+"Cameroon","Africa","Western Africa","not free","mostly unfree","authoritarian regime",2.627,0.5
+"Canada","Americas","North America","free","free","full democracy",1.177,0.91
+"Central African Republic","Africa","Central Africa","not free","repressed","authoritarian regime",4.844,0.35
+"Chad","Africa","Central Africa","not free","repressed","authoritarian regime",3.01,0.34
+"Chile","Americas","South America","free","mostly free","flawed democracy",2.636,0.82
+"China","Asia","East Asia","not free","mostly unfree","authoritarian regime",4.992,0.7
+"Colombia","Americas","South America","partly free","mostly free","flawed democracy",6.055,0.72
+"Costa Rica","Americas","Central America","free","moderately free","full democracy",0,0.77
+"Croatia","Europe","South East Europe","free","moderately free","flawed democracy",0,0.81
+"Cuba","Americas","West Indies","not free","repressed","authoritarian regime",0,0.78
+"Cyprus","Asia","South West Asia","free","moderately free","flawed democracy",0.049,0.85
+"Czech Republic","Europe","Central Europe","free","mostly free","full democracy",0.522,0.87
+"Denmark","Europe","Northern Europe","free","mostly free","full democracy",1.129,0.9
+"Djibouti","Africa","Eastern Africa","not free","mostly unfree","authoritarian regime",0,0.45
+"Dominican Republic","Americas","West Indies","free","moderately free","flawed democracy",0,0.7
+"Ecuador","Americas","South America","partly free","repressed","hybrid regime",0.679,0.72
+"Egypt","Africa","Northern Africa","not free","mostly unfree","hybrid regime",4.576,0.66
+"El Salvador","Americas","Central America","free","moderately free","flawed democracy",0,0.68
+"Equatorial Guinea","Africa","Western Africa","not free","repressed","authoritarian regime",0.217,0.55
+"Eritrea","Africa","Eastern Africa","not free","repressed","authoritarian regime",3.917,0.35
+"Estonia","Europe","Eastern Europe","free","mostly free","flawed democracy",0.158,0.85
+"Ethiopia","Africa","Eastern Africa","not free","mostly unfree","authoritarian regime",3.732,0.4
+"Finland","Europe","Northern Europe","free","mostly free","full democracy",0.069,0.89
+"France","Europe","Western Europe","free","moderately free","flawed democracy",1.731,0.89
+"Gabon","Africa","Western Africa","not free","mostly unfree","authoritarian regime",0,0.68
+"Georgia","Asia","South West Asia","partly free","mostly free","hybrid regime",3.428,0.75
+"Germany","Europe","Western Europe","free","mostly free","full democracy",1.743,0.92
+"Ghana","Africa","Western Africa","free","moderately free","flawed democracy",0,0.56
+"Greece","Europe","South East Europe","free","mostly unfree","flawed democracy",2.016,0.86
+"Guinea","Africa","Western Africa","partly free","mostly unfree","authoritarian regime",0,0.36
+"Guinea-Bissau","Africa","Western Africa","not free","mostly unfree","authoritarian regime",0.158,0.36
+"Guyana","Americas","South America","free","mostly unfree","flawed democracy",0.976,0.64
+"Haiti","Americas","West Indies","partly free","repressed","hybrid regime",0.074,0.46
+"Honduras","Americas","Central America","partly free","mostly unfree","hybrid regime",1.225,0.63
+"Hungary","Europe","Central Europe","free","moderately free","flawed democracy",0.277,0.83
+"Iceland","Europe","Northern Europe","free","mostly free","full democracy",0,0.91
+"India","Asia","South Asia","free","mostly unfree","flawed democracy",9.147,0.55
+"Indonesia","Asia","South East Asia","partly free","mostly unfree","flawed democracy",4.505,0.63
+"Iran","Asia","South West Asia","not free","repressed","authoritarian regime",5.633,0.74
+"Ireland","Europe","Western Europe","free","mostly free","full democracy",1.456,0.92
+"Israel","Asia","South West Asia","free","moderately free","flawed democracy",5.155,0.9
+"Italy","Europe","Southern Europe","free","moderately free","flawed democracy",2.066,0.88
+"Jamaica","Americas","West Indies","free","moderately free","flawed democracy",0,0.73
+"Japan","Asia","East Asia","free","mostly free","full democracy",0.059,0.91
+"Jordan","Asia","South West Asia","not free","moderately free","authoritarian regime",0.585,0.7
+"Kazakhstan","Asia","Central Asia","not free","moderately free","authoritarian regime",2.804,0.75
+"Kenya","Africa","Eastern Africa","partly free","mostly unfree","hybrid regime",5.266,0.52
+"Kuwait","Asia","South West Asia","partly free","moderately free","authoritarian regime",0.158,0.79
+"Kyrgyzstan","Asia","Central Asia","partly free","moderately free","hybrid regime",0.395,0.622
+"Laos","Asia","South East Asia","not free","mostly unfree","authoritarian regime",0,0.543
+"Latvia","Europe","Eastern Europe","free","moderately free","flawed democracy",0,0.814
+"Lebanon","Asia","South West Asia","partly free","mostly unfree","hybrid regime",4.483,0.745
+"Lesotho","Africa","Southern Africa","free","repressed","flawed democracy",0.04,0.461
+"Liberia","Africa","Western Africa","partly free","mostly unfree","hybrid regime",0,0.388
+"Lithuania","Europe","Eastern Europe","free","mostly free","flawed democracy",0,0.818
+"Macedonia","Europe","South East Europe","partly free","moderately free","flawed democracy",0.624,0.74
+"Madagascar","Africa","Indian Ocean","partly free","moderately free","authoritarian regime",0.435,0.483
+"Malawi","Africa","Southern Africa","partly free","mostly unfree","flawed democracy",0,0.418
+"Malaysia","Asia","South East Asia","partly free","moderately free","flawed democracy",0.415,0.769
+"Mali","Africa","Western Africa","partly free","mostly unfree","hybrid regime",3.389,0.344
+"Mauritania","Africa","Western Africa","partly free","mostly unfree","hybrid regime",2.181,0.467
+"Mauritius","Africa","Indian Ocean","free","mostly free","full democracy",0,0.737
+"Mexico","Americas","Central America","partly free","moderately free","flawed democracy",2.008,0.775
+"Moldova","Europe","Eastern Europe","partly free","mostly unfree","flawed democracy",0.992,0.66
+"Mongolia","Asia","Northern Asia","free","mostly unfree","flawed democracy",0,0.675
+"Morocco","Africa","Northern Africa","partly free","mostly unfree","hybrid regime",3.599,0.591
+"Mozambique","Africa","Southern Africa","partly free","mostly unfree","hybrid regime",0.203,0.327
+"Namibia","Africa","Southern Africa","free","mostly unfree","flawed democracy",0,0.608
+"Nepal","Asia","South Asia","partly free","mostly unfree","hybrid regime",5.017,0.463
+"Netherlands","Europe","Western Europe","free","mostly free","full democracy",2.037,0.921
+"New Zealand","Oceania","Pacific","free","free","full democracy",0.079,0.919
+"Nicaragua","Americas","Central America","partly free","mostly unfree","hybrid regime",0,0.599
+"Niger","Africa","Western Africa","partly free","mostly unfree","hybrid regime",3.266,0.304
+"Nigeria","Africa","Western Africa","partly free","mostly unfree","authoritarian regime",7.347,0.471
+"Norway","Europe","Northern Europe","free","mostly free","full democracy",5.031,0.955
+"Oman","Asia","South West Asia","not free","moderately free","authoritarian regime",0,0.731
+"Pakistan","Asia","South Asia","partly free","mostly unfree","hybrid regime",10.249,0.515
+"Panama","Americas","Central America","free","moderately free","flawed democracy",0,0.78
+"Papua New Guinea","Oceania","Pacific","partly free","mostly unfree","flawed democracy",0.01,0.466
+"Paraguay","Americas","South America","partly free","moderately free","flawed democracy",2.174,0.669
+"Peru","Americas","South America","free","moderately free","flawed democracy",2.491,0.741
+"Philippines","Asia","South East Asia","partly free","moderately free","flawed democracy",6.801,0.654
+"Poland","Europe","Eastern Europe","free","moderately free","flawed democracy",0,0.821
+"Portugal","Europe","South West Europe","free","moderately free","flawed democracy",1.129,0.816
+"Qatar","Asia","South West Asia","not free","mostly free","authoritarian regime",2.68,0.834
+"Romania","Europe","South East Europe","free","moderately free","flawed democracy",0,0.786
+"Russia","Asia","Northern Asia","not free","mostly unfree","authoritarian regime",7.068,0.788
+"Rwanda","Africa","Central Africa","not free","moderately free","authoritarian regime",3.729,0.434
+"Saudi Arabia","Asia","South West Asia","not free","moderately free","authoritarian regime",2.708,0.782
+"Senegal","Africa","Western Africa","free","mostly unfree","flawed democracy",3.864,0.47
+"Sierra Leone","Africa","Western Africa","partly free","mostly unfree","hybrid regime",0,0.359
+"Singapore","Asia","South East Asia","partly free","free","hybrid regime",0,0.895
+"Slovakia","Europe","Central Europe","free","moderately free","flawed democracy",0,0.84
+"Slovenia","Europe","South East Europe","free","moderately free","flawed democracy",0,0.892
+"South Africa","Africa","Southern Africa","free","moderately free","flawed democracy",0.054,0.629
+"Spain","Europe","South West Europe","free","moderately free","full democracy",3.086,0.885
+"Sri Lanka","Asia","South Asia","partly free","moderately free","hybrid regime",5.68,0.715
+"Swaziland","Africa","Southern Africa","not free","moderately free","authoritarian regime",0.059,0.536
+"Sweden","Europe","Northern Europe","free","mostly free","full democracy",1.755,0.916
+"Switzerland","Europe","Central Europe","free","free","full democracy",1.173,0.913
+"Tajikistan","Asia","Central Asia","not free","mostly unfree","authoritarian regime",4.597,0.622
+"Tanzania","Africa","Eastern Africa","partly free","mostly unfree","hybrid regime",0.119,0.476
+"Thailand","Asia","South East Asia","partly free","moderately free","flawed democracy",7.086,0.69
+"Trinidad and Tobago","Americas","West Indies","free","moderately free","flawed democracy",0,0.76
+"Tunisia","Africa","Northern Africa","partly free","mostly unfree","hybrid regime",2.358,0.712
+"Turkey","Asia","South West Asia","partly free","moderately free","hybrid regime",5.238,0.722
+"Turkmenistan","Asia","Central Asia","not free","repressed","authoritarian regime",0,0.698
+"Uganda","Africa","Eastern Africa","partly free","mostly unfree","hybrid regime",4.492,0.456
+"Ukraine","Europe","Eastern Europe","partly free","repressed","hybrid regime",2.163,0.74
+"United Arab Emirates","Asia","South West Asia","not free","mostly free","authoritarian regime",0.079,0.818
+"United Kingdom","Europe","Western Europe","free","mostly free","full democracy",4.509,0.875
+"United States","Americas","North America","free","mostly free","full democracy",3.566,0.937
+"Uruguay","Americas","South America","free","moderately free","full democracy",0,0.792
+"Uzbekistan","Asia","Central Asia","not free","repressed","authoritarian regime",0.585,0.654
+"Venezuela","Americas","South America","partly free","repressed","hybrid regime",1.62,0.748
+"Vietnam","Asia","South East Asia","not free","mostly unfree","authoritarian regime",0,0.617
+"Yemen","Asia","South West Asia","not free","mostly unfree","authoritarian regime",8.605,0.458
+"Zambia","Africa","Southern Africa","partly free","moderately free","flawed democracy",0,0.448
+"Zimbabwe","Africa","Southern Africa","not free","repressed","authoritarian regime",1.36,0.397

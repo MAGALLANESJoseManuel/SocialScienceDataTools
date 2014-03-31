@@ -1,0 +1,16 @@
+{
+    "contents" : "R TUTORIAL (I)\n========================================================\n```{r echo=FALSE, set-options }\noptions(width = 320)\n```\nThis is our first \"basic\" step-by-step tutorial where I will simply show how to collect some data,\n\nIn general, social data appear in a spreadsheet-like format, where different columns can have different **types** of values, that is *numeric* and *string*, while numeric can also represent different *scales*.However, data collected from social events may not follow a strict protocol and may bring some challenges when we need to work on it.For instance, take a look at the image below:\n\n\n<img src=\"http://i.imgur.com/ioOhKrL.jpg\" height=\"500\" width=\"800\" align=center> \n\n\n * Source:<a href='http://en.wikipedia.org/wiki/List_of_border_wars' target='_blank'>WIKIPEDIA</a>\n\nAnyway, if the source is idenytified and it looks like the image above we have several options using R. First we can think of copying and pasting the data into an **MSExcel** file, where we can save it as **csv**. If the data is in that format, we can get it quickly with a simple command:\n\n```{r}\nsetwd(\"~/Documents/GITHUBrepositories/Tutorials/TemplatesR\")\nDATA_LocalFile=read.csv(\"warI.csv\")\nhead(DATA_LocalFile)\n```\n\nIt is sometimes a good idea to store it in **GoogleDrive** so that you do not depend on your hard drive availability, as shown below:\n\n<img src=\"http://i.imgur.com/d8gVtyH.jpg\" height=\"500\" width=\"800\" align=center> \n\nYou can see the previous steps in <a href=\"http://blog.revolutionanalytics.com/2009/09/how-to-use-a-google-spreadsheet-as-data-in-r.html\" target=\"_blank\">http://blog.revolutionanalytics.com/</a>.  \nIn our case, the proces is:\n```{r}\nrequire(RCurl)\nCsvGDocs <- getURL(\"https://docs.google.com/spreadsheet/pub?key=0AhVqDdZgThPldEZpWlc2Z3FuVm8taTlBVlc1a3VnT2c&output=csv\")\nDATA_Gdocs=read.csv(textConnection(CsvGDocs))\nhead(DATA_Gdocs)\n```\n\nThere are other alternatives as **dropbox**, but a much better one could be  **GitHub**, where not only your data can be stored, but specially your code:\n```{r}\nlibrary(RCurl)\nDATA_Github <- getURL(\"https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/warI.csv\")\nDATA_git <- read.csv(text = DATA_Github)\nhead(DATA_git)\n```\nWe can also get the table from where it has been published (Wikipedia):\n```{r}\nLink = 'http://en.wikipedia.org/wiki/List_of_border_wars'\nwhichTable=3\nlibrary(XML)\nwikiDataWWW = getNodeSet(htmlParse(Link), \"//table\")[[whichTable]]\nDATA_www = readHTMLTable(wikiDataWWW)\nhead(DATA_www)\n```\n\nEvidently, some more work may be needed, we will see that later.",
+    "created" : 1396240439184.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4141531822",
+    "id" : "17B984FB",
+    "lastKnownWriteTime" : 1396234688,
+    "path" : "~/Documents/GITHUBrepositories/Tutorials/TemplatesR/RTutor1.Rmd",
+    "project_path" : "TemplatesR/RTutor1.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

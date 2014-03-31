@@ -1,0 +1,95 @@
+R TUTORIAL (II)
+========================================================
+```{r echo=FALSE}
+options(width = 320)
+```
+In a previous post we had a table from wikipedia with information of interest. In this code, I will show some variations in data **collection** and **cleaning**.  
+
+Following from the previous tutorial we had a table from the link:
+```{r}
+Link = "http://en.wikipedia.org/wiki/List_of_border_wars"
+```
+
+As it can be seen below, this wikipage has many tables:
+
+<img src="http://i.imgur.com/hOa1tml.jpg" height="500" width="800" align=center> 
+
+First, let's get the table as in the previous post:
+
+```{r}
+library(XML)
+whichTable=3
+dirtyTable = getNodeSet(htmlParse(Link),"//table") [[whichTable]]
+```
+
+Then, let's get the **table** already known, and see its first rows(using *head*):
+```{r echo=FALSE, cache=FALSE}
+cleanTable = readHTMLTable(dirtyTable)
+cleanTable
+```
+
+The code so far is not recognising the first row as the names of the columns, so we solve that setting header as *True*:
+
+```{r}
+cleanTable = readHTMLTable(dirtyTable,header=T)
+cleanTable
+```
+
+Now we are concern with the strange characters in the fourth column, we will try to see if indicating UTF-8 as encoding can help solve this situation:
+```{r}
+dirtyTable = getNodeSet(htmlParse(Link,encoding="UTF-8"),"//table") [[whichTable]]
+cleanTable = readHTMLTable(dirtyTable,header=T)
+cleanTable
+```
+
+This is so much better. Now that we have got rid of the most obvious issues, let's see if we other things are hidding somewhere.Let's simply get a *summary* and the *structure* of this table:
+```{r results='hold'}
+summary(cleanTable)
+str(cleanTable)
+```
+
+The last column has obvious problems, and we can try to replace the wrong symbols. However, from the last result we see it is a factor instead of a string, we need to correct that (if it is not a string, we can not operate on them with string functions).
+
+```{r}
+dirtyTable = getNodeSet(htmlParse(Link,encoding="UTF-8"),"//table") [[whichTable]]
+cleanTable = readHTMLTable(dirtyTable,header=T,trim=T,stringsAsFactors = F)
+indexmillion=grep("million", cleanTable$Fatalities)
+cleanTable$Fatalities[indexmillion]='2000000'
+indexunknown=grep("Un", cleanTable$Fatalities)
+cleanTable$Fatalities[c(indexunknown)]=NA
+cleanTable
+```
+
+We see a better table. Now we need to get rid of those problematic symbols and empty spaces.We will extra columns to show the conversion process.
+```{r}
+cleanTable$Fatalities2=gsub("[[:punct:]]", "", cleanTable$Fatalities)
+cleanTable$Fatalities3=gsub(" ", "", cleanTable$Fatalities2)
+cleanTable
+```
+
+```{r}
+cleanTable$Fatalities=as.numeric(cleanTable$Fatalities3)
+cleanTable$Fatalities2=NULL
+cleanTable$Fatalities3=NULL
+cleanTable
+```
+
+The final step would the to clean the cell where a problematic text is input for *finish* year:
+```{r}
+indexyear=grep("CF", cleanTable$Finish)
+cleanTable$Finish[indexyear]='1953'
+```
+
+We can now save the file to our github repository (once we push it from Rstudio):
+```{r}
+setwd("~/Documents/GITHUBrepositories/Tutorials/TemplatesR")
+write.csv(cleanTable,"wikitable.csv")
+```
+
+You can work with this file now:
+```{r}
+library(RCurl)
+DATA_GithubCleaned <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/wikitable.csv")
+DATA_gitClean <- read.csv(text = DATA_GithubCleaned)
+head(DATA_gitClean)
+```
