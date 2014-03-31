@@ -413,6 +413,28 @@ cleanTable$Finish[indexyear] = &quot;1953&quot;
 write.csv(cleanTable, &quot;wikitable.csv&quot;)
 </code></pre>
 
+<p>You can work with this file now:</p>
+
+<pre><code class="r">library(RCurl)
+</code></pre>
+
+<pre><code>## Loading required package: bitops
+</code></pre>
+
+<pre><code class="r">DATA_GithubCleaned &lt;- getURL(&quot;https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/wikitable.csv&quot;)
+DATA_gitClean &lt;- read.csv(text = DATA_GithubCleaned)
+head(DATA_gitClean)
+</code></pre>
+
+<pre><code>##   X Start Finish                   Conflict                          Combatants Fatalities
+## 1 1  1947   1948 Indo-Pakistani War of 1947                   Pakistan –  India       3000
+## 2 2  1950   1953                 Korean War          South Korea -  North Korea    2419010
+## 3 3  1962   1962            Sino-Indian War                        PRC –  India       4000
+## 4 4  1965   1965 Indo-Pakistani War of 1965                   Pakistan –  India       6800
+## 5 5  1966   1989   South African Border War              Angola –  South Africa         NA
+## 6 6  1967   1967             Chola incident India –  People&#39;s Republic of China          5
+</code></pre>
+
 </body>
 
 </html>

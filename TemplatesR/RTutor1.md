@@ -1,6 +1,7 @@
 R TUTORIAL (I)
 ========================================================
 
+
 This is our first "basic" step-by-step tutorial where I will simply show how to collect some data,
 
 In general, social data appear in a spreadsheet-like format, where different columns can have different **types** of values, that is *numeric* and *string*, while numeric can also represent different *scales*.However, data collected from social events may not follow a strict protocol and may bring some challenges when we need to work on it.For instance, take a look at the image below:
@@ -12,8 +13,6 @@ In general, social data appear in a spreadsheet-like format, where different col
  * Source:<a href='http://en.wikipedia.org/wiki/List_of_border_wars' target='_blank'>WIKIPEDIA</a>
 
 Anyway, if the source is idenytified and it looks like the image above we have several options using R. First we can think of copying and pasting the data into an **MSExcel** file, where we can save it as **csv**. If the data is in that format, we can get it quickly with a simple command:
-
-
 
 
 ```r
