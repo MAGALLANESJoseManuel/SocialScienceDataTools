@@ -1,0 +1,32 @@
+from,to,fatalities,duration,name
+Turkey,Syria,22.0,1,2012 Syrian-Turkish border clashes
+Bangladesh,India,22.0,2.0,2001 Indian-Bangladeshi border conflict
+Eritrea,Ethiopia,70002.0,4.0,Eritrean-Ethiopian War
+Eritrea,Djibouti,146.0,2.0,2008 Djiboutian-Eritrean border conflict
+Sudan,South Sudan,324.0,2.0,2012 South Sudan-Sudan border conflict
+Lebanon,Israel,32.0,8.0,2000-2006 Shebaa Farms conflict
+Mongolia,Manchukuo,16002.0,2.0,Battle of Khalkhin Gol
+Mongolia,Japan,16002.0,2.0,Battle of Khalkhin Gol
+Mongolia,Soviet Union,16002.0,2.0,Battle of Khalkhin Gol
+Ethiopia,Somalia,1,2.0,1982 Ethiopian-Somali Border War
+Slovakia,Hungary,68.0,2.0,Slovak-Hungarian War
+Peru,Bolivia,13002.0,6.0,War of the Pacific
+Peru,Ecuador,452.0,2.0,Cenepa War
+Peru,Chile,13002.0,6.0,War of the Pacific
+Laos,Thailand,1002.0,3.0,Thai-Laotian Border War
+Bolivia,Paraguay,100002.0,5.0,Chaco War
+Bolivia,Chile,13002.0,6.0,War of the Pacific
+Burkina Faso,Mali,181.0,2.0,Agacher Strip War
+Manchukuo,Japan,16002.0,2.0,Battle of Khalkhin Gol
+Manchukuo,Soviet Union,16002.0,2.0,Battle of Khalkhin Gol
+Iran,Iraq,2000002.0,10.0,Iran-Iraq War
+Japan,Soviet Union,16002.0,2.0,Battle of Khalkhin Gol
+China,Vietnam,1,13.0,Sino-Vietnamese conflicts 1979-1990
+China,India,1,2.0,1987 Sino-Indian skirmish
+China,Soviet Union,1,2.0,Sino-Soviet border conflict
+Thailand,Cambodia,44.0,6.0,Cambodian-Thai border dispute
+Mauritania,Senegal,1,4.0,Mauritania-Senegal Border War
+North Korea,South Korea,2419012.0,5.0,Korean War
+Pakistan,India,4502.0,2.0,Kargil War
+Angola,South Africa,1,25.0,South African Border War
+Mexico,United States,102.0,10.0,Border War

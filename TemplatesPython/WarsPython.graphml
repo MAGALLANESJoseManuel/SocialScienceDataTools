@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="fatalities" attr.type="int" for="edge" id="d6" />
+  <key attr.name="duration" attr.type="double" for="edge" id="d5" />
+  <key attr.name="name" attr.type="string" for="edge" id="d4" />
+  <key attr.name="fatalities" attr.type="double" for="edge" id="d3" />
+  <key attr.name="duration" attr.type="int" for="edge" id="d2" />
+  <key attr.name="longitude" attr.type="double" for="node" id="d1" />
+  <key attr.name="latitude" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="Turkey">
+      <data key="d0">39.917</data>
+      <data key="d1">32.833</data>
+    </node>
+    <node id="Bangladesh">
+      <data key="d0">23.7</data>
+      <data key="d1">90.35</data>
+    </node>
+    <node id="Eritrea">
+      <data key="d0">15.333</data>
+      <data key="d1">38.917</data>
+    </node>
+    <node id="Sudan">
+      <data key="d0">15.633</data>
+      <data key="d1">32.533</data>
+    </node>
+    <node id="Lebanon">
+      <data key="d0">33.9</data>
+      <data key="d1">35.533</data>
+    </node>
+    <node id="Mali">
+      <data key="d0">12.65</data>
+      <data key="d1">-8.0</data>
+    </node>
+    <node id="Mongolia">
+      <data key="d0">47.917</data>
+      <data key="d1">106.883</data>
+    </node>
+    <node id="Ethiopia">
+      <data key="d0">9.03</data>
+      <data key="d1">38.74</data>
+    </node>
+    <node id="Slovakia">
+      <data key="d0">48.15</data>
+      <data key="d1">17.117</data>
+    </node>
+    <node id="Somalia">
+      <data key="d0">2.033</data>
+      <data key="d1">45.35</data>
+    </node>
+    <node id="Peru">
+      <data key="d0">-12.0433</data>
+      <data key="d1">-77.0283</data>
+    </node>
+    <node id="Laos">
+      <data key="d0">17.967</data>
+      <data key="d1">102.6</data>
+    </node>
+    <node id="Bolivia">
+      <data key="d0">-16.712</data>
+      <data key="d1">-64.666</data>
+    </node>
+    <node id="Burkina Faso">
+      <data key="d0">12.333</data>
+      <data key="d1">-1.667</data>
+    </node>
+    <node id="Ecuador">
+      <data key="d0">-0.15</data>
+      <data key="d1">-78.35</data>
+    </node>
+    <node id="Manchukuo">
+      <data key="d0">43.883</data>
+      <data key="d1">125.317</data>
+    </node>
+    <node id="Israel">
+      <data key="d0">31.0</data>
+      <data key="d1">35.0</data>
+    </node>
+    <node id="Iran">
+      <data key="d0">32.0</data>
+      <data key="d1">53.0</data>
+    </node>
+    <node id="Djibouti">
+      <data key="d0">11.6</data>
+      <data key="d1">43.167</data>
+    </node>
+    <node id="China">
+      <data key="d0">39.917</data>
+      <data key="d1">116.383</data>
+    </node>
+    <node id="Chile">
+      <data key="d0">-33.433</data>
+      <data key="d1">-70.667</data>
+    </node>
+    <node id="Thailand">
+      <data key="d0">13.75</data>
+      <data key="d1">100.483</data>
+    </node>
+    <node id="Iraq">
+      <data key="d0">33.333</data>
+      <data key="d1">44.433</data>
+    </node>
+    <node id="Mauritania">
+      <data key="d0">18.15</data>
+      <data key="d1">-15.967</data>
+    </node>
+    <node id="North Korea">
+      <data key="d0">40.0</data>
+      <data key="d1">127.0</data>
+    </node>
+    <node id="Vietnam">
+      <data key="d0">21.033</data>
+      <data key="d1">105.85</data>
+    </node>
+    <node id="Cambodia">
+      <data key="d0">11.55</data>
+      <data key="d1">104.917</data>
+    </node>
+    <node id="Japan">
+      <data key="d0">35.683</data>
+      <data key="d1">139.767</data>
+    </node>
+    <node id="Syria">
+      <data key="d0">33.5</data>
+      <data key="d1">36.3</data>
+    </node>
+    <node id="Soviet Union">
+      <data key="d0">60.0</data>
+      <data key="d1">90.0</data>
+    </node>
+    <node id="Pakistan">
+      <data key="d0">33.667</data>
+      <data key="d1">73.167</data>
+    </node>
+    <node id="Angola">
+      <data key="d0">-8.833</data>
+      <data key="d1">13.333</data>
+    </node>
+    <node id="Mexico">
+      <data key="d0">19.433</data>
+      <data key="d1">-99.133</data>
+    </node>
+    <node id="South Africa">
+      <data key="d0">-30.0</data>
+      <data key="d1">25.0</data>
+    </node>
+    <node id="India">
+      <data key="d0">28.6133</data>
+      <data key="d1">77.2083</data>
+    </node>
+    <node id="Senegal">
+      <data key="d0">14.667</data>
+      <data key="d1">-17.417</data>
+    </node>
+    <node id="Paraguay">
+      <data key="d0">-25.267</data>
+      <data key="d1">-57.667</data>
+    </node>
+    <node id="Hungary">
+      <data key="d0">47.433</data>
+      <data key="d1">19.25</data>
+    </node>
+    <node id="South Korea">
+      <data key="d0">37.55</data>
+      <data key="d1">126.967</data>
+    </node>
+    <node id="United States">
+      <data key="d0">38.883</data>
+      <data key="d1">-77.017</data>
+    </node>
+    <node id="South Sudan">
+      <data key="d0">4.85</data>
+      <data key="d1">31.6</data>
+    </node>
+    <edge source="Turkey" target="Syria">
+      <data key="d2">1</data>
+      <data key="d3">22.0</data>
+      <data key="d4">2012 Syrian-Turkish border clashes</data>
+    </edge>
+    <edge source="Bangladesh" target="India">
+      <data key="d5">2.0</data>
+      <data key="d3">22.0</data>
+      <data key="d4">2001 Indian-Bangladeshi border conflict</data>
+    </edge>
+    <edge source="Eritrea" target="Ethiopia">
+      <data key="d5">4.0</data>
+      <data key="d3">70002.0</data>
+      <data key="d4">Eritrean-Ethiopian War</data>
+    </edge>
+    <edge source="Eritrea" target="Djibouti">
+      <data key="d5">2.0</data>
+      <data key="d3">146.0</data>
+      <data key="d4">2008 Djiboutian-Eritrean border conflict</data>
+    </edge>
+    <edge source="Sudan" target="South Sudan">
+      <data key="d5">2.0</data>
+      <data key="d3">324.0</data>
+      <data key="d4">2012 South Sudan-Sudan border conflict</data>
+    </edge>
+    <edge source="Lebanon" target="Israel">
+      <data key="d5">8.0</data>
+      <data key="d3">32.0</data>
+      <data key="d4">2000-2006 Shebaa Farms conflict</data>
+    </edge>
+    <edge source="Mali" target="Burkina Faso">
+      <data key="d5">2.0</data>
+      <data key="d3">181.0</data>
+      <data key="d4">Agacher Strip War</data>
+    </edge>
+    <edge source="Mongolia" target="Manchukuo">
+      <data key="d5">2.0</data>
+      <data key="d3">16002.0</data>
+      <data key="d4">Battle of Khalkhin Gol</data>
+    </edge>
+    <edge source="Mongolia" target="Japan">
+      <data key="d5">2.0</data>
+      <data key="d3">16002.0</data>
+      <data key="d4">Battle of Khalkhin Gol</data>
+    </edge>
+    <edge source="Mongolia" target="Soviet Union">
+      <data key="d5">2.0</data>
+      <data key="d3">16002.0</data>
+      <data key="d4">Battle of Khalkhin Gol</data>
+    </edge>
+    <edge source="Ethiopia" target="Somalia">
+      <data key="d5">2.0</data>
+      <data key="d6">1</data>
+      <data key="d4">1982 Ethiopian-Somali Border War</data>
+    </edge>
+    <edge source="Slovakia" target="Hungary">
+      <data key="d5">2.0</data>
+      <data key="d3">68.0</data>
+      <data key="d4">Slovak-Hungarian War</data>
+    </edge>
+    <edge source="Peru" target="Bolivia">
+      <data key="d5">6.0</data>
+      <data key="d3">13002.0</data>
+      <data key="d4">War of the Pacific</data>
+    </edge>
+    <edge source="Peru" target="Ecuador">
+      <data key="d3">452.0</data>
+      <data key="d4">Cenepa War</data>
+      <data key="d5">2.0</data>
+    </edge>
+    <edge source="Peru" target="Chile">
+      <data key="d5">6.0</data>
+      <data key="d3">13002.0</data>
+      <data key="d4">War of the Pacific</data>
+    </edge>
+    <edge source="Laos" target="Thailand">
+      <data key="d5">3.0</data>
+      <data key="d3">1002.0</data>
+      <data key="d4">Thai-Laotian Border War</data>
+    </edge>
+    <edge source="Bolivia" target="Paraguay">
+      <data key="d5">5.0</data>
+      <data key="d3">100002.0</data>
+      <data key="d4">Chaco War</data>
+    </edge>
+    <edge source="Bolivia" target="Chile">
+      <data key="d5">6.0</data>
+      <data key="d3">13002.0</data>
+      <data key="d4">War of the Pacific</data>
+    </edge>
+    <edge source="Manchukuo" target="Japan">
+      <data key="d5">2.0</data>
+      <data key="d3">16002.0</data>
+      <data key="d4">Battle of Khalkhin Gol</data>
+    </edge>
+    <edge source="Manchukuo" target="Soviet Union">
+      <data key="d5">2.0</data>
+      <data key="d3">16002.0</data>
+      <data key="d4">Battle of Khalkhin Gol</data>
+    </edge>
+    <edge source="Iran" target="Iraq">
+      <data key="d5">10.0</data>
+      <data key="d3">2000002.0</data>
+      <data key="d4">Iran-Iraq War</data>
+    </edge>
+    <edge source="China" target="Vietnam">
+      <data key="d5">13.0</data>
+      <data key="d6">1</data>
+      <data key="d4">Sino-Vietnamese conflicts 1979-1990</data>
+    </edge>
+    <edge source="China" target="India">
+      <data key="d6">1</data>
+      <data key="d4">1987 Sino-Indian skirmish</data>
+      <data key="d5">2.0</data>
+    </edge>
+    <edge source="China" target="Soviet Union">
+      <data key="d5">2.0</data>
+      <data key="d6">1</data>
+      <data key="d4">Sino-Soviet border conflict</data>
+    </edge>
+    <edge source="Thailand" target="Cambodia">
+      <data key="d5">6.0</data>
+      <data key="d3">44.0</data>
+      <data key="d4">Cambodian-Thai border dispute</data>
+    </edge>
+    <edge source="Mauritania" target="Senegal">
+      <data key="d5">4.0</data>
+      <data key="d6">1</data>
+      <data key="d4">Mauritania-Senegal Border War</data>
+    </edge>
+    <edge source="North Korea" target="South Korea">
+      <data key="d5">5.0</data>
+      <data key="d3">2419012.0</data>
+      <data key="d4">Korean War</data>
+    </edge>
+    <edge source="Japan" target="Soviet Union">
+      <data key="d3">16002.0</data>
+      <data key="d4">Battle of Khalkhin Gol</data>
+      <data key="d5">2.0</data>
+    </edge>
+    <edge source="Pakistan" target="India">
+      <data key="d3">4502.0</data>
+      <data key="d4">Kargil War</data>
+      <data key="d5">2.0</data>
+    </edge>
+    <edge source="Angola" target="South Africa">
+      <data key="d5">25.0</data>
+      <data key="d6">1</data>
+      <data key="d4">South African Border War</data>
+    </edge>
+    <edge source="Mexico" target="United States">
+      <data key="d3">102.0</data>
+      <data key="d4">Border War</data>
+      <data key="d5">10.0</data>
+    </edge>
+  </graph>
+</graphml>

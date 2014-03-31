@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="duration" type="integer" />
+      <attribute id="3" title="fatalities" type="double" />
+      <attribute id="4" title="name" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="latitude" type="double" />
+      <attribute id="1" title="longitude" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Turkey" label="Turkey">
+        <attvalues>
+          <attvalue for="0" value="39.917" />
+          <attvalue for="1" value="32.833" />
+        </attvalues>
+      </node>
+      <node id="Bangladesh" label="Bangladesh">
+        <attvalues>
+          <attvalue for="0" value="23.7" />
+          <attvalue for="1" value="90.35" />
+        </attvalues>
+      </node>
+      <node id="Eritrea" label="Eritrea">
+        <attvalues>
+          <attvalue for="0" value="15.333" />
+          <attvalue for="1" value="38.917" />
+        </attvalues>
+      </node>
+      <node id="Sudan" label="Sudan">
+        <attvalues>
+          <attvalue for="0" value="15.633" />
+          <attvalue for="1" value="32.533" />
+        </attvalues>
+      </node>
+      <node id="Lebanon" label="Lebanon">
+        <attvalues>
+          <attvalue for="0" value="33.9" />
+          <attvalue for="1" value="35.533" />
+        </attvalues>
+      </node>
+      <node id="Mali" label="Mali">
+        <attvalues>
+          <attvalue for="0" value="12.65" />
+          <attvalue for="1" value="-8.0" />
+        </attvalues>
+      </node>
+      <node id="Mongolia" label="Mongolia">
+        <attvalues>
+          <attvalue for="0" value="47.917" />
+          <attvalue for="1" value="106.883" />
+        </attvalues>
+      </node>
+      <node id="Ethiopia" label="Ethiopia">
+        <attvalues>
+          <attvalue for="0" value="9.03" />
+          <attvalue for="1" value="38.74" />
+        </attvalues>
+      </node>
+      <node id="Slovakia" label="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="48.15" />
+          <attvalue for="1" value="17.117" />
+        </attvalues>
+      </node>
+      <node id="Somalia" label="Somalia">
+        <attvalues>
+          <attvalue for="0" value="2.033" />
+          <attvalue for="1" value="45.35" />
+        </attvalues>
+      </node>
+      <node id="Peru" label="Peru">
+        <attvalues>
+          <attvalue for="0" value="-12.0433" />
+          <attvalue for="1" value="-77.0283" />
+        </attvalues>
+      </node>
+      <node id="Laos" label="Laos">
+        <attvalues>
+          <attvalue for="0" value="17.967" />
+          <attvalue for="1" value="102.6" />
+        </attvalues>
+      </node>
+      <node id="Bolivia" label="Bolivia">
+        <attvalues>
+          <attvalue for="0" value="-16.712" />
+          <attvalue for="1" value="-64.666" />
+        </attvalues>
+      </node>
+      <node id="Burkina Faso" label="Burkina Faso">
+        <attvalues>
+          <attvalue for="0" value="12.333" />
+          <attvalue for="1" value="-1.667" />
+        </attvalues>
+      </node>
+      <node id="Ecuador" label="Ecuador">
+        <attvalues>
+          <attvalue for="0" value="-0.15" />
+          <attvalue for="1" value="-78.35" />
+        </attvalues>
+      </node>
+      <node id="Manchukuo" label="Manchukuo">
+        <attvalues>
+          <attvalue for="0" value="43.883" />
+          <attvalue for="1" value="125.317" />
+        </attvalues>
+      </node>
+      <node id="Israel" label="Israel">
+        <attvalues>
+          <attvalue for="0" value="31.0" />
+          <attvalue for="1" value="35.0" />
+        </attvalues>
+      </node>
+      <node id="Iran" label="Iran">
+        <attvalues>
+          <attvalue for="0" value="32.0" />
+          <attvalue for="1" value="53.0" />
+        </attvalues>
+      </node>
+      <node id="Djibouti" label="Djibouti">
+        <attvalues>
+          <attvalue for="0" value="11.6" />
+          <attvalue for="1" value="43.167" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="39.917" />
+          <attvalue for="1" value="116.383" />
+        </attvalues>
+      </node>
+      <node id="Chile" label="Chile">
+        <attvalues>
+          <attvalue for="0" value="-33.433" />
+          <attvalue for="1" value="-70.667" />
+        </attvalues>
+      </node>
+      <node id="Thailand" label="Thailand">
+        <attvalues>
+          <attvalue for="0" value="13.75" />
+          <attvalue for="1" value="100.483" />
+        </attvalues>
+      </node>
+      <node id="Iraq" label="Iraq">
+        <attvalues>
+          <attvalue for="0" value="33.333" />
+          <attvalue for="1" value="44.433" />
+        </attvalues>
+      </node>
+      <node id="Mauritania" label="Mauritania">
+        <attvalues>
+          <attvalue for="0" value="18.15" />
+          <attvalue for="1" value="-15.967" />
+        </attvalues>
+      </node>
+      <node id="North Korea" label="North Korea">
+        <attvalues>
+          <attvalue for="0" value="40.0" />
+          <attvalue for="1" value="127.0" />
+        </attvalues>
+      </node>
+      <node id="Vietnam" label="Vietnam">
+        <attvalues>
+          <attvalue for="0" value="21.033" />
+          <attvalue for="1" value="105.85" />
+        </attvalues>
+      </node>
+      <node id="Cambodia" label="Cambodia">
+        <attvalues>
+          <attvalue for="0" value="11.55" />
+          <attvalue for="1" value="104.917" />
+        </attvalues>
+      </node>
+      <node id="Japan" label="Japan">
+        <attvalues>
+          <attvalue for="0" value="35.683" />
+          <attvalue for="1" value="139.767" />
+        </attvalues>
+      </node>
+      <node id="Syria" label="Syria">
+        <attvalues>
+          <attvalue for="0" value="33.5" />
+          <attvalue for="1" value="36.3" />
+        </attvalues>
+      </node>
+      <node id="Soviet Union" label="Soviet Union">
+        <attvalues>
+          <attvalue for="0" value="60.0" />
+          <attvalue for="1" value="90.0" />
+        </attvalues>
+      </node>
+      <node id="Pakistan" label="Pakistan">
+        <attvalues>
+          <attvalue for="0" value="33.667" />
+          <attvalue for="1" value="73.167" />
+        </attvalues>
+      </node>
+      <node id="Angola" label="Angola">
+        <attvalues>
+          <attvalue for="0" value="-8.833" />
+          <attvalue for="1" value="13.333" />
+        </attvalues>
+      </node>
+      <node id="Mexico" label="Mexico">
+        <attvalues>
+          <attvalue for="0" value="19.433" />
+          <attvalue for="1" value="-99.133" />
+        </attvalues>
+      </node>
+      <node id="South Africa" label="South Africa">
+        <attvalues>
+          <attvalue for="0" value="-30.0" />
+          <attvalue for="1" value="25.0" />
+        </attvalues>
+      </node>
+      <node id="India" label="India">
+        <attvalues>
+          <attvalue for="0" value="28.6133" />
+          <attvalue for="1" value="77.2083" />
+        </attvalues>
+      </node>
+      <node id="Senegal" label="Senegal">
+        <attvalues>
+          <attvalue for="0" value="14.667" />
+          <attvalue for="1" value="-17.417" />
+        </attvalues>
+      </node>
+      <node id="Paraguay" label="Paraguay">
+        <attvalues>
+          <attvalue for="0" value="-25.267" />
+          <attvalue for="1" value="-57.667" />
+        </attvalues>
+      </node>
+      <node id="Hungary" label="Hungary">
+        <attvalues>
+          <attvalue for="0" value="47.433" />
+          <attvalue for="1" value="19.25" />
+        </attvalues>
+      </node>
+      <node id="South Korea" label="South Korea">
+        <attvalues>
+          <attvalue for="0" value="37.55" />
+          <attvalue for="1" value="126.967" />
+        </attvalues>
+      </node>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="38.883" />
+          <attvalue for="1" value="-77.017" />
+        </attvalues>
+      </node>
+      <node id="South Sudan" label="South Sudan">
+        <attvalues>
+          <attvalue for="0" value="4.85" />
+          <attvalue for="1" value="31.6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Turkey" target="Syria">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="22.0" />
+          <attvalue for="4" value="2012 Syrian-Turkish border clashes" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Bangladesh" target="India">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="22.0" />
+          <attvalue for="4" value="2001 Indian-Bangladeshi border conflict" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Eritrea" target="Ethiopia">
+        <attvalues>
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="70002.0" />
+          <attvalue for="4" value="Eritrean-Ethiopian War" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Eritrea" target="Djibouti">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="146.0" />
+          <attvalue for="4" value="2008 Djiboutian-Eritrean border conflict" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Sudan" target="South Sudan">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="324.0" />
+          <attvalue for="4" value="2012 South Sudan-Sudan border conflict" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Lebanon" target="Israel">
+        <attvalues>
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="32.0" />
+          <attvalue for="4" value="2000-2006 Shebaa Farms conflict" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Mali" target="Burkina Faso">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="181.0" />
+          <attvalue for="4" value="Agacher Strip War" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Mongolia" target="Manchukuo">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="16002.0" />
+          <attvalue for="4" value="Battle of Khalkhin Gol" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Mongolia" target="Japan">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="16002.0" />
+          <attvalue for="4" value="Battle of Khalkhin Gol" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Mongolia" target="Soviet Union">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="16002.0" />
+          <attvalue for="4" value="Battle of Khalkhin Gol" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Ethiopia" target="Somalia">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1982 Ethiopian-Somali Border War" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Slovakia" target="Hungary">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="68.0" />
+          <attvalue for="4" value="Slovak-Hungarian War" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Peru" target="Bolivia">
+        <attvalues>
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="13002.0" />
+          <attvalue for="4" value="War of the Pacific" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Peru" target="Ecuador">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="452.0" />
+          <attvalue for="4" value="Cenepa War" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Peru" target="Chile">
+        <attvalues>
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="13002.0" />
+          <attvalue for="4" value="War of the Pacific" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Laos" target="Thailand">
+        <attvalues>
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="1002.0" />
+          <attvalue for="4" value="Thai-Laotian Border War" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Bolivia" target="Paraguay">
+        <attvalues>
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="100002.0" />
+          <attvalue for="4" value="Chaco War" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Bolivia" target="Chile">
+        <attvalues>
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="13002.0" />
+          <attvalue for="4" value="War of the Pacific" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Manchukuo" target="Japan">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="16002.0" />
+          <attvalue for="4" value="Battle of Khalkhin Gol" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Manchukuo" target="Soviet Union">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="16002.0" />
+          <attvalue for="4" value="Battle of Khalkhin Gol" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Iran" target="Iraq">
+        <attvalues>
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="2000002.0" />
+          <attvalue for="4" value="Iran-Iraq War" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="China" target="Vietnam">
+        <attvalues>
+          <attvalue for="2" value="13.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="Sino-Vietnamese conflicts 1979-1990" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="China" target="India">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1987 Sino-Indian skirmish" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="China" target="Soviet Union">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="Sino-Soviet border conflict" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Thailand" target="Cambodia">
+        <attvalues>
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="44.0" />
+          <attvalue for="4" value="Cambodian-Thai border dispute" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Mauritania" target="Senegal">
+        <attvalues>
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="Mauritania-Senegal Border War" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="North Korea" target="South Korea">
+        <attvalues>
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="2419012.0" />
+          <attvalue for="4" value="Korean War" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Japan" target="Soviet Union">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="16002.0" />
+          <attvalue for="4" value="Battle of Khalkhin Gol" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Pakistan" target="India">
+        <attvalues>
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="4502.0" />
+          <attvalue for="4" value="Kargil War" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Angola" target="South Africa">
+        <attvalues>
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="South African Border War" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="Mexico" target="United States">
+        <attvalues>
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="102.0" />
+          <attvalue for="4" value="Border War" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
