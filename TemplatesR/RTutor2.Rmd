@@ -84,3 +84,11 @@ We can now save the file to our github repository (once we push it from Rstudio)
 setwd("~/Documents/GITHUBrepositories/Tutorials/TemplatesR")
 write.csv(cleanTable,"wikitable.csv")
 ```
+
+You can work with this file now:
+```{r}
+library(RCurl)
+DATA_GithubCleaned <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/wikitable.csv")
+DATA_gitClean <- read.csv(text = DATA_GithubCleaned)
+head(DATA_gitClean)
+```

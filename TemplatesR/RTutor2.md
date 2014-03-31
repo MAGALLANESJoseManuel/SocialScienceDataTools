@@ -265,3 +265,30 @@ setwd("~/Documents/GITHUBrepositories/Tutorials/TemplatesR")
 write.csv(cleanTable, "wikitable.csv")
 ```
 
+
+You can work with this file now:
+
+```r
+library(RCurl)
+```
+
+```
+## Loading required package: bitops
+```
+
+```r
+DATA_GithubCleaned <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/wikitable.csv")
+DATA_gitClean <- read.csv(text = DATA_GithubCleaned)
+head(DATA_gitClean)
+```
+
+```
+##   X Start Finish                   Conflict                          Combatants Fatalities
+## 1 1  1947   1948 Indo-Pakistani War of 1947                   Pakistan –  India       3000
+## 2 2  1950   1953                 Korean War          South Korea -  North Korea    2419010
+## 3 3  1962   1962            Sino-Indian War                        PRC –  India       4000
+## 4 4  1965   1965 Indo-Pakistani War of 1965                   Pakistan –  India       6800
+## 5 5  1966   1989   South African Border War              Angola –  South Africa         NA
+## 6 6  1967   1967             Chola incident India –  People's Republic of China          5
+```
+
