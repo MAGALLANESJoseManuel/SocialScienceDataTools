@@ -14,9 +14,11 @@ library(RCurl)
 ```
 
 ```r
+# EDGELIST
 WarsForRGit <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesPython/WarsForR.csv")
-el <- read.csv(text = WarsForRGit, header = T)  #list of edges
+el <- read.csv(text = WarsForRGit, header = T)
 
+# NODE ATTRIBUTES
 WarsForR_attrGit <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesPython/WarsForR_attr.csv\n")
 at <- read.csv(text = WarsForR_attrGit, header = T, as.is = T)  #node attributes
 ```
@@ -52,82 +54,22 @@ library(statnet)
 ```
 
 
-The documentation of statnet is available in  its [website](http://statnet.org/). However, here we will give you the first and most important step!... read a network:
+The documentation of statnet is available in  its [website](http://statnet.org/). 
+As we know, the attributes of the nodes consists of only its coordinates. But to build a model it is better that we have other kind of attributes, so let's get back our terrorism score, and merge it with the attribute data:
 
 ```r
-# el<-read.csv('WarsForR.csv',header=T) at<-read.csv('WarsForR_attr.csv', header=T, as.is=T) #node attributes
-```
-
-
-As we know, the attributes of the nodes consists of only its coordinates. But to vuild a model it is better that we have other kind of attributes, so let's get back our terrorism score, and merge it with the attribute data:
-
-```r
-path = "~/Documents/GITHUBrepositories/Tutorials/TemplatesR/dataCountries.csv"
-RegionCode = read.csv(path)[, c(1, 3)]
-names(RegionCode)
-```
-
-```
-## [1] "Country" "Region"
-```
-
-```r
-RegionCode$Region = as.numeric(RegionCode$Region)
+dataCountriesGit <- getURL("https://raw.github.com/MAGALLANESJoseManuel/SocialScienceDataTools/master/TemplatesR/dataCountries.csv")
+RegionCode = read.csv(text = dataCountriesGit)[, c(1, 3)]
 str(RegionCode$Region)
 ```
 
 ```
-##  num [1:141] 17 10 20 14 18 13 4 18 18 15 ...
+##  Factor w/ 24 levels "Central Africa",..: 17 10 20 14 18 13 4 18 18 15 ...
 ```
 
 ```r
+RegionCode$Region = as.numeric(RegionCode$Region)
 at = merge(at, RegionCode, by.x = "country", by.y = "Country", all.x = T)
-summary(at)
-```
-
-```
-##  country                longitude         latitude         Region     
-##  NULL:Angola          Min.   :-99.13   Min.   :-33.4   Min.   : 2.00  
-##  NULL:Bangladesh      1st Qu.: -1.67   1st Qu.: 11.6   1st Qu.: 8.25  
-##  NULL:Bolivia         Median : 36.30   Median : 19.4   Median :15.00  
-##  NULL:Burkina Faso    Mean   : 35.64   Mean   : 19.6   Mean   :13.78  
-##  NULL:Cambodia        3rd Qu.: 90.35   3rd Qu.: 35.7   3rd Qu.:18.00  
-##  NULL:Chile           Max.   :139.77   Max.   : 60.0   Max.   :23.00  
-##  NULL:China                                            NA's   :9      
-##  NULL:Djibouti                                                        
-##  NULL:Ecuador                                                         
-##  NULL:Eritrea                                                         
-##  NULL:Ethiopia                                                        
-##  NULL:Hungary                                                         
-##  NULL:India                                                           
-##  NULL:Iran                                                            
-##  NULL:Iraq                                                            
-##  NULL:Israel                                                          
-##  NULL:Japan                                                           
-##  NULL:Laos                                                            
-##  NULL:Lebanon                                                         
-##  NULL:Mali                                                            
-##  NULL:Manchukuo                                                       
-##  NULL:Mauritania                                                      
-##  NULL:Mexico                                                          
-##  NULL:Mongolia                                                        
-##  NULL:North Korea                                                     
-##  NULL:Pakistan                                                        
-##  NULL:Paraguay                                                        
-##  NULL:Peru                                                            
-##  NULL:Senegal                                                         
-##  NULL:Slovakia                                                        
-##  NULL:Somalia                                                         
-##  NULL:South Africa                                                    
-##  NULL:South Korea                                                     
-##  NULL:South Sudan                                                     
-##  NULL:Soviet Union                                                    
-##  NULL:Sudan                                                           
-##  NULL:Syria                                                           
-##  NULL:Thailand                                                        
-##  NULL:Turkey                                                          
-##  NULL:United States                                                   
-##  NULL:Vietnam
 ```
 
 
@@ -161,13 +103,13 @@ And can see it our statnet network here (two versions):
 gplot(nw)
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-91.png) 
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-81.png) 
 
 ```r
 gplot(nw, displaylabels = TRUE, usearrows = F)
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-92.png) 
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-82.png) 
 
 ```r
 lnw = cbind(nw %v% "longitude", nw %v% "latitude")
@@ -179,7 +121,7 @@ lnw = cbind(nw %v% "longitude", nw %v% "latitude")
 gplot(nw, displaylabels = TRUE, coord = lnw, usearrows = F, edge.lwd = nw %e% "duration"/2)
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9.png) 
 
 
 Finally, we can show you how you can model a network in statnet:
@@ -188,7 +130,7 @@ Finally, we can show you how you can model a network in statnet:
 whyWars <- ergm(nw ~ edges + nodematch("Region"))
 ```
 
-This model wants to know, for instance, how the terrorism index increases the probability of a link formation. We can see the result below:
+This model wants to know something very obvous:if the probability of a war is increased when you a foreign country in the region. We can see the result below:
 
 ```r
 summary(whyWars)
@@ -218,11 +160,16 @@ summary(whyWars)
 ```
 
 
+Obviously, the category **REGION** increases the probability. BUT, for sure it is not sufficient, as we **validate* the model, and we get a network far from what it should look:
+
 ```r
 simWhyWars <- simulate(whyWars)
-plot(simWhyWars)
+par(mfrow = c(1, 2), oma = c(0, 0, 3, 0))
+gplot(nw, usearrows = F, main = "REALITY")
+gplot(simWhyWars, usearrows = F, main = "SIMULATION")
+title("VALIDATION", outer = TRUE)
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 
+![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12.png) 
 
 There are many more steps involved in network modelling, and a particularly helpful tutorial on ergm can also be found [here](http://statnet.csde.washington.edu/NME2013/day2/ergm%20tutorial.html).
