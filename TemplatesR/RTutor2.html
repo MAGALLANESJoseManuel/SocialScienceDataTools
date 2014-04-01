@@ -181,6 +181,25 @@ hljs.initHighlightingOnLoad();
 <body>
 <h1>R TUTORIAL (II)</h1>
 
+<p><font color='red'>Note: If you see have an <strong>SSL ERROR</strong> when you are getting data from Github, you can try this:</p>
+
+<pre><code class="r">options(width = 320, RCurlOptions = list(verbose = FALSE, capath = system.file(&quot;CurlSSL&quot;, 
+    &quot;cacert.pem&quot;, package = &quot;RCurl&quot;), ssl.verifypeer = FALSE))
+getOption(&quot;RCurlOptions&quot;)  # just to confirm ssl status!
+</code></pre>
+
+<pre><code>## $verbose
+## [1] FALSE
+## 
+## $capath
+## [1] &quot;/Library/Frameworks/R.framework/Versions/3.0/Resources/library/RCurl/CurlSSL/cacert.pem&quot;
+## 
+## $ssl.verifypeer
+## [1] FALSE
+</code></pre>
+
+<p>BUT first try to do it without the lines above</font>  </p>
+
 <p>In a previous post we had a table from wikipedia with information of interest. In this code, I will show some variations in data <strong>collection</strong> and <strong>cleaning</strong>.  </p>
 
 <p>Following from the previous tutorial we had a table from the link:</p>
